@@ -109,7 +109,7 @@ The repository includes a standalone interactive Leaflet/Folium visualization:
 
 ```text
 .
-├── REPORT_BIKE_SHARING.pdf           # Comprehensive academic exam report (14 pages, PDF)
+├── REPORT_BIKE_SHARING.pdf           # Comprehensive academic exam report (15 pages, PDF)
 ├── bike_sharing_methodology.ipynb     # Main research notebook (fully executed & commented)
 ├── April2021.csv.zip                  # Raw Citi Bike trip records (compressed archive)
 ├── corridoi_mobilita_jersey_city.html # Interactive Folium GIS corridor visualization
