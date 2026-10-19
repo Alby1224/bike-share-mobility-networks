@@ -41,3 +41,6 @@ desktop.ini
 # IDE files
 .vscode/
 .idea/
+
+# Word drafts (publish PDF reports only)
+*.docx
