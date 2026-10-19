@@ -25,18 +25,18 @@ In compliance with white-box data mining principles, no deep learning or black-b
 
 ```mermaid
 flowchart TD
-    A[Raw Citi Bike Trip Logs<br/>23,318 Rides] --> B[Three-Stage Quality Cleaning Pipeline]
-    B -->|Bounding Box + Short Trip (<60s) + Haversine Speed (>35 km/h)| C[Directed Weighted Mobility Graph G=<V, E, W>]
+    A["Raw Citi Bike Trip Logs<br/>23,318 Rides"] --> B["Three-Stage Quality Cleaning Pipeline"]
+    B -->|"Bounding Box + Short Trip (&lt; 60s) + Haversine Speed (&gt; 35 km/h)"| C["Directed Weighted Mobility Graph G = (V, E, W)"]
     
-    C --> D1[Custom Weighted PageRank<br/>Power Iteration with Destination-Attraction Teleport]
-    C --> D2[Centrality Triangulation<br/>PageRank vs In-Strength vs Betweenness vs Closeness]
-    C --> D3[Dual Community Detection<br/>Louvain vs Normalized Spectral Clustering L_sym]
-    C --> D4[Spatial Flow Neighborhood Modeling<br/>k-NN Trajectory Graph & Emergent Corridors]
+    C --> D1["Custom Weighted PageRank<br/>Power Iteration with Destination Teleport"]
+    C --> D2["Centrality Triangulation<br/>PageRank vs In-Strength vs Betweenness vs Closeness"]
+    C --> D3["Dual Community Detection<br/>Louvain vs Normalized Spectral Clustering L_sym"]
+    C --> D4["Spatial Flow Neighborhood Modeling<br/>k-NN Trajectory Graph & Emergent Corridors"]
     
-    D1 --> E[Hub Identification & Sensitivity Analysis on d]
+    D1 --> E["Hub Identification & Sensitivity Analysis on d"]
     D2 --> E
-    D3 --> F[Functional Urban Zoning & Partition Concordance]
-    D4 --> G[Interactive Folium GIS Web Map]
+    D3 --> F["Functional Urban Zoning & Partition Concordance"]
+    D4 --> G["Interactive Folium GIS Web Map"]
 ```
 
 ### 1. Data Cleaning & Spatial Sanity
