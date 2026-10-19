@@ -7,6 +7,7 @@
 [![Folium](https://img.shields.io/badge/Folium-Interactive%20GIS-77B829.svg?logo=leaflet&logoColor=white)](https://python-visualization.github.io/folium/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Academic Paper](https://img.shields.io/badge/Physica%20A-Wang%20et%20al.%20(2021)-red.svg)](bike_sharing.pdf)
+[![Exam Report](https://img.shields.io/badge/Exam%20Report-PDF%20Document-blue.svg)](REPORT_BIKE_SHARING.pdf)
 
 ---
 
@@ -108,13 +109,15 @@ The repository includes a standalone interactive Leaflet/Folium visualization:
 
 ```text
 .
-├── April2021.csv.zip                  # Raw Citi Bike trip records (compressed archive)
+├── REPORT_BIKE_SHARING.pdf           # Comprehensive academic exam report (14 pages, PDF)
+├── REPORT_BIKE_SHARING.docx          # Editable report source (native OMML equations)
 ├── bike_sharing_methodology.ipynb     # Main research notebook (fully executed & commented)
+├── April2021.csv.zip                  # Raw Citi Bike trip records (compressed archive)
 ├── corridoi_mobilita_jersey_city.html # Interactive Folium GIS corridor visualization
 ├── bike_sharing.pdf                   # Reference scientific paper (Wang et al., 2021)
 ├── requirements.txt                   # Reproducible Python dependencies
 ├── .gitignore                         # Standard Python & Jupyter ignore patterns
-├── LICENSE                            # MIT Open Source License
+├── LICENSE                            # MIT Open Source License (Alberto Mergoni)
 └── README.md                          # Executive documentation & study briefing
 ```
 
