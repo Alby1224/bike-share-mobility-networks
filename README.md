@@ -72,7 +72,7 @@ To delineate functional urban partitions, two orthogonal clustering paradigms ar
   followed by $K$-Means embedding in the subspace of the smallest non-trivial eigenvectors.
 
 ### 5. Spatial Flow Neighborhood Modeling & Corridor Identification
-Adapting Section 4.1 of the paper, individual trip trajectories $\mathbf{f}_i = (x_i^{orig}, y_i^{orig}, x_i^{dest}, y_i^{dest})$ are embedded in $\mathbb{R}^4$. A $k$-Nearest Neighbors graph ($k=15$) captures flow spatial coherence. Louvain community detection on this trajectory graph extracts **24 emergent mobility corridors**, exported to an interactive GIS map.
+Adapting Section 4.1 of the paper, individual trip trajectories $\mathbf{f}_i = (x_i^{orig}, y_i^{orig}, x_i^{dest}, y_i^{dest})$ are embedded in $\mathbb{R}^4$. A $k$-Nearest Neighbors graph ($k=15$) captures flow spatial coherence. Louvain community detection on this trajectory graph extracts **21 emergent mobility corridors**, exported to an interactive GIS map.
 
 ---
 
@@ -101,7 +101,7 @@ Adapting Section 4.1 of the paper, individual trip trajectories $\mathbf{f}_i = 
 
 The repository includes a standalone interactive Leaflet/Folium visualization:
 * **File:** [`corridoi_mobilita_jersey_city.html`](corridoi_mobilita_jersey_city.html)
-* **Features:** OpenStreetMap base layer, color-coded functional communities, proportional PageRank station nodes, and vector trajectories depicting the 24 primary cycling corridors with tooltips and trip volumes.
+* **Features:** OpenStreetMap base layer, color-coded functional communities, proportional PageRank station nodes, and vector trajectories depicting the 21 primary cycling corridors with tooltips and trip volumes.
 
 ---
 
@@ -154,7 +154,7 @@ jupyter notebook bike_sharing_methodology.ipynb
 
 ## 📖 Scientific References
 
-1. **Wang, J., Kim, I., et al. (2021).** *Spatiotemporal evolving patterns of bike-share mobility networks and their associations with land-use conditions before and after the COVID-19 outbreak.* **Physica A: Statistical Mechanics and its Applications**, 586, 126819. [DOI: 10.1016/j.physa.2021.126819](https://doi.org/10.1016/j.physa.2021.126819)
+1. **Wang, J., Kim, I., et al. (2021).** *Spatiotemporal evolving patterns of bike-share mobility networks and their associations with land-use conditions before and after the COVID-19 outbreak.* **Physica A: Statistical Mechanics and its Applications**, 586, 126819. [DOI: 10.1016/j.physa.2021.126819](https://doi.org/10.1016/j.physa.2021.126819Y
 2. **Citi Bike NYC / Jersey City.** Open Trip Data (April 2021). Motivate / Lyft Urban Mobility.
 
 ---
